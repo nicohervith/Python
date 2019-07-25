@@ -4,7 +4,7 @@ def input_con_confirmacion(pregunta):
     dato_usuario = ""
     while not confirmacion:
         dato_usuario = input(pregunta)
-        seguro = input("Dijiste {}, ¿Estás seguro?  [ si / no ]").format(dato_usuario)
+        seguro = input("Dijiste {}, ¿Estás seguro?  [ si / no ]".format(dato_usuario))
         if seguro == "si":
             confirmacion = True
     return dato_usuario
